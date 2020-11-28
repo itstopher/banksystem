@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <display-name>
+        The System
+    </display-name>
+    <description>
+        The solution for the customer, introducing a banking system tailored to the needs of the
+        user.
+    </description>
+
+    <!-- Servlet definitions. -->
+    <servlet>
+        <servlet-name>
+            Login
+        </servlet-name>
+        <servlet-class>
+            Login
+        </servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>
+            Home
+        </servlet-name>
+        <servlet-class>
+            Home
+        </servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>
+            Accounts
+        </servlet-name>
+        <servlet-class>
+            Accounts
+        </servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>
+            SendMoney
+        </servlet-name>
+        <servlet-class>
+            SendMoney
+        </servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>
+            AccountHistory
+        </servlet-name>
+        <servlet-class>
+            AccountHistory
+        </servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>
+            Logout
+        </servlet-name>
+        <servlet-class>
+            Logout
+        </servlet-class>
+    </servlet>
+
+    <!-- Servlet mappings. -->
+    <servlet-mapping>
+        <servlet-name>
+            Login
+        </servlet-name>
+        <url-pattern>
+            /Login
+        </url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>
+            Home
+        </servlet-name>
+        <url-pattern>
+            /Home
+        </url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>
+            Accounts
+        </servlet-name>
+        <url-pattern>
+            /Accounts
+        </url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>
+            SendMoney
+        </servlet-name>
+        <url-pattern>
+            /SendMoney
+        </url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>
+            AccountHistory
+        </servlet-name>
+        <url-pattern>
+            /AccountHistory
+        </url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>
+            Logout
+        </servlet-name>
+        <url-pattern>
+            /Logout
+        </url-pattern>
+    </servlet-mapping>
+</web-app>
